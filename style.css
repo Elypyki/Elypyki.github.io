@@ -1,0 +1,60 @@
+.mainHeader { 
+    width: 70%; 
+    background: rgba(240,255,240,255);
+    padding: 10px;
+    border: solid 1px black; 
+	border-radius: 10px;
+	margin:0 auto;
+   }
+.divInnerHead { 
+	font-family: fantasy;
+	font-weight: 100;
+	font-size:25;
+    width: 40%; 
+    background: rgba(230,230,255,255);
+    padding: 10px;
+    border: solid 1px black; 
+	border-radius: 10px;
+	margin:left;
+   }
+.divInnerText{
+	font-family: Georgia;
+	font-weight: 100;
+	font-size:25;
+    width: 98%; 
+    background: rgba(255,255,230,255);
+    padding: 10px;
+    border: solid 1px black; 
+	border-radius: 10px;
+	margin:left;
+	}
+.divOuter { 
+    width: 85%; 
+    background: rgba(255,230,230,255);
+    padding: 10px;
+    border: solid 2px black; 
+	border-radius: 10px;
+	margin:0 auto;
+   }
+.head1 { 
+	font-family: Georgia;
+	font-weight: 200;
+	font-size:25;
+    width: 80%; 
+    background: rgba(255,230,255,255);
+    padding: 10px;
+    border: solid 2px black; 
+	border-radius: 10px;
+	margin:0 auto;
+   }
+.head0 { 
+	font-family: fantasy;
+	font-weight: 100;
+	font-size:30;
+    width: 70%; 
+    background: rgba(200,255,255,255);
+    padding: 10px;
+    border: solid 2px black; 
+	border-radius: 10px;
+	margin:0 auto;
+   }
