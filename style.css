@@ -1,3 +1,7 @@
+.a:hover {
+	background: rgba(0,192,255,255);
+	padding: 20px;
+}
 .mainHeader { 
     width: 70%; 
     background: rgba(240,255,240,255);
