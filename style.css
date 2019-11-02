@@ -24,6 +24,7 @@ a:hover {
 	border-radius: 10px;
 	margin:left;
    }
+
 .divInnerText{
 	font-family: Georgia;
 	font-weight: 100;
@@ -65,3 +66,39 @@ a:hover {
 	border-radius: 10px;
 	margin:0 auto;
    }
+.tabs { 
+	width: 100%; 
+	padding: 0px; 
+	margin: 0 auto; 
+}
+.tabs>input { 
+	display: none; 
+}
+.tabs>div {
+    display: none;
+}
+.tabs>label {
+    display: inline-block;
+    padding: 10px;
+    margin: 0 -5px -1px 0;
+    text-align: center; 
+    background: rgba(255,230,230,255);
+    border: solid 2px black; 
+	border-radius: 10px;
+    cursor: pointer;
+}
+.tabs>input:checked + label {
+	 background: rgba(240,255,240,255);
+}
+.tabs>label:hover{
+	font-family: Georgia;
+	font-weight: 200;
+    color: rgba(255,255,0,255);
+    background: rgba(0,192,255,255);
+}
+
+#tab_1:checked ~ #lab1,
+#tab_2:checked ~ #lab2,
+#tab_3:checked ~ #lab3,
+#tab_4:checked ~ #Ekzamen { display: block; }
+   
